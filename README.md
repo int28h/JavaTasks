@@ -1,5 +1,5 @@
 ### Задания [отсюда](http://acm.sgu.ru/mobiledev17/problemset.php)    
-[101](src/list-reverse) Переворот односвязного списка.   
+[101](src/list-reverse.java) Переворот односвязного списка.   
    
     
 	
