@@ -1,15 +1,16 @@
-### Задания [отсюда](http://acm.sgu.ru/mobiledev17/problemset.php)    
+### Задачи [отсюда](http://acm.sgu.ru/mobiledev17/problemset.php)    
 [101](src/list-reverse.java) Переворот односвязного списка.   
    
     
 	
-### Задания [отсюда](http://rain.ifmo.ru/~lukinma/problems-2-3.pdf)   
+### Задачи [отсюда](https://openedu.ru/course/ITMOUniversity/PADS/)   
    
 [1](src/sortland.java) Сортировка двумерного массива вставками.  
+[2](src/inversionscount.java) Подсчет количества инверсий в массиве с помощью алгоритма сортировки слиянием.   
   
   
   
-### Задания [отсюда](https://stepik.org/course/187/syllabus)    
+### Задачи [отсюда](https://stepik.org/course/187/syllabus)    
   
 [0001](src/0001.java) Реализуйте метод, возвращающий ответ на вопрос: правда ли, что a + b = c? Допустимая погрешность – 0.0001 (1E-4)  
 [0002](src/0002.java) Реализуйте метод flipBit, изменяющий значение одного бита заданного целого числа на противоположное.  
