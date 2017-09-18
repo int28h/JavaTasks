@@ -1,5 +1,4 @@
 //Второй тест (пример 2 в описании задания ниже) данное решение не проходит.
-//Кроме того, не соблюдается формат вывода - отступы отсутствуют.
 
 /**
  * Вам дан XML-документ в следующем формате:
@@ -106,7 +105,10 @@
  * </members>
  */
 
+import java.io.ByteArrayInputStream;
 import java.io.IOException;
+import java.io.StringWriter;
+
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
@@ -117,62 +119,91 @@ import javax.xml.transform.TransformerException;
 import javax.xml.transform.TransformerFactory;
 import javax.xml.transform.dom.DOMSource;
 import javax.xml.transform.stream.StreamResult;
+import javax.xml.xpath.XPath;
+import javax.xml.xpath.XPathConstants;
+import javax.xml.xpath.XPathFactory;
 
 import org.w3c.dom.Attr;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.NodeList;
+import org.xml.sax.InputSource;
 import org.xml.sax.SAXException;
 
-public class Main {	
-    public static void main(String[] args) throws TransformerException { 
-    	try {
-            DocumentBuilder inDocumentBuilder = DocumentBuilderFactory.newInstance().newDocumentBuilder();
-            org.w3c.dom.Document inDocument = inDocumentBuilder.parse("input.xml"); 
-            
-            Document outDocument = DocumentBuilderFactory.newInstance().newDocumentBuilder().newDocument();
-            Element outMembers = outDocument.createElement("members");
-            outDocument.appendChild(outMembers);            
-           
-            Element inRoot = inDocument.getDocumentElement();
-            NodeList inProjects = inRoot.getChildNodes(); //projects
-            for (int i = 0; i < inProjects.getLength(); i++) {
-                org.w3c.dom.Node inProject = inProjects.item(i);
-                if (inProject.getNodeType() != Node.TEXT_NODE) {
-                    NodeList inMembers = inProject.getChildNodes(); //members
-                    for(int j = 0; j < inMembers.getLength(); j++) {
-                        org.w3c.dom.Node inMember = inMembers.item(j); 
-                        if (inMember.getNodeType() != Node.TEXT_NODE) {
-                            System.out.println(inMember.getNodeName() + " " + inMember.getAttributes().getNamedItem("role") + " " + inMember.getAttributes().getNamedItem("name"));                            
-                            
-                            Element outMember = outDocument.createElement("member");
-                            outMembers.appendChild(outMember);                            
-                            Attr outMemberName = outDocument.createAttribute("name");
-                            outMemberName.setTextContent(inMember.getAttributes().getNamedItem("name").getNodeValue());
-                            outMember.setAttributeNode(outMemberName);
-                            
-                            Element outRole = outDocument.createElement("role");
-                            outMember.appendChild(outRole);
-                            Attr outRoleName = outDocument.createAttribute("name");
-                            outRoleName.setTextContent(inMember.getAttributes().getNamedItem("role").getNodeValue());
-                            outRole.setAttributeNode(outRoleName);
-                            Attr outProjectName = outDocument.createAttribute("project");
-                            outProjectName.setTextContent(inProject.getAttributes().getNamedItem("name").getNodeValue());
-                            outRole.setAttributeNode(outProjectName);
-                        }
-                    }
-                }
+public class Main {
+	private static Document stringToDocument(String xml) {
+        try {
+            return DocumentBuilderFactory.newInstance().newDocumentBuilder().parse(new InputSource(new ByteArrayInputStream(xml.getBytes("utf-8"))));
+        } catch (SAXException | IOException | ParserConfigurationException e) {
+            e.printStackTrace();
+        }
+        return null;
+    }
+	
+	private static String toStringFormat(int indent, Document document) {
+        try {
+            XPath xPath = XPathFactory.newInstance().newXPath();
+            NodeList nodeList = (NodeList) xPath.evaluate("//text()[normalize-space()='']", document,XPathConstants.NODESET);
+            for (int i = 0; i < nodeList.getLength(); i++) {
+                org.w3c.dom.Node node = nodeList.item(i);
+                node.getParentNode().removeChild(node);
             }
-            Transformer transformer = TransformerFactory.newInstance().newTransformer();
+            TransformerFactory transformerFactory = TransformerFactory.newInstance();
+            transformerFactory.setAttribute("indent-number", indent);
+            Transformer transformer = transformerFactory.newTransformer();
+            transformer.setOutputProperty(OutputKeys.ENCODING, "UTF-8");
+            transformer.setOutputProperty(OutputKeys.OMIT_XML_DECLARATION, "yes");
             transformer.setOutputProperty(OutputKeys.INDENT, "yes");
-            transformer.transform(new DOMSource(outDocument), new StreamResult("output.xml"));
-         } catch (ParserConfigurationException ex) {
-                ex.printStackTrace(System.out);
-         } catch (SAXException ex) {
-                ex.printStackTrace(System.out);
-         } catch (IOException ex) {
-                ex.printStackTrace(System.out);
-         }
+            StringWriter stringWriter = new StringWriter();
+            transformer.transform(new DOMSource(document), new StreamResult(stringWriter));
+            return stringWriter.toString();
+        } catch (Exception e) {
+            throw new RuntimeException(e);
+        }
+    }
+	
+    public static void main(String[] args) throws TransformerException, ParserConfigurationException, SAXException, IOException { 
+    	DocumentBuilder inDocumentBuilder = DocumentBuilderFactory.newInstance().newDocumentBuilder();
+        org.w3c.dom.Document inDocument = inDocumentBuilder.parse("input.xml"); 
+        
+        Document outDocument = DocumentBuilderFactory.newInstance().newDocumentBuilder().newDocument();
+    	
+        Element outMembers = outDocument.createElement("members");
+		outDocument.appendChild(outMembers);            
+         
+		Element inRoot = inDocument.getDocumentElement();
+		NodeList inProjects = inRoot.getChildNodes(); //projects
+		for (int i = 0; i < inProjects.getLength(); i++) {
+		    org.w3c.dom.Node inProject = inProjects.item(i);
+		    if (inProject.getNodeType() != Node.TEXT_NODE) {
+		        NodeList inMembers = inProject.getChildNodes(); //members
+		        for(int j = 0; j < inMembers.getLength(); j++) {
+		            org.w3c.dom.Node inMember = inMembers.item(j); 
+		            if (inMember.getNodeType() != Node.TEXT_NODE) {
+		                System.out.println(inMember.getNodeName() + " " + inMember.getAttributes().getNamedItem("role") + " " + inMember.getAttributes().getNamedItem("name"));                           
+		                
+		                Element outMember = outDocument.createElement("member");
+		                outMembers.appendChild(outMember); 
+		                Attr outMemberName = outDocument.createAttribute("name");
+		                outMemberName.setTextContent(inMember.getAttributes().getNamedItem("name").getNodeValue());
+		                outMember.setAttributeNode(outMemberName);
+		                
+		                Element outRole = outDocument.createElement("role");
+		                outMember.appendChild(outRole);
+		                Attr outRoleName = outDocument.createAttribute("name");
+		                outRoleName.setTextContent(inMember.getAttributes().getNamedItem("role").getNodeValue());
+		                outRole.setAttributeNode(outRoleName);
+		                Attr outProjectName = outDocument.createAttribute("project");
+		                outProjectName.setTextContent(inProject.getAttributes().getNamedItem("name").getNodeValue());
+		                outRole.setAttributeNode(outProjectName);
+		            }
+		        }
+		    }
+		}
+		String xmlString = new String(toStringFormat(4, outDocument));
+		Transformer transformer = TransformerFactory.newInstance().newTransformer();
+        transformer.setOutputProperty(OutputKeys.INDENT, "yes");
+        transformer.transform(new DOMSource(stringToDocument(xmlString)), new StreamResult("output.xml"));
     }
 }
 
