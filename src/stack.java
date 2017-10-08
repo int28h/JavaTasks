@@ -18,7 +18,7 @@ import java.io.PrintStream;
 import java.util.Scanner;
 
 public class Main {	
-	private static int[] array = new int[1000000];  
+	private static int[] array = new int[100000];  
 	private static int top = 0;
 	 
 	private static boolean isEmpty() {
