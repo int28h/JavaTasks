@@ -45,20 +45,53 @@ import java.io.FileOutputStream;
 import java.io.PrintStream;
 import java.util.Scanner;
 
-public class BinaryTree {
-	private static class Node {
-		Node left = null;
-		Node right = null;
+public class BinaryTree {	
+	private static class Node {		
+		Node left, right;
 		int key;
+		
+		Node(int key) {
+            this.key = key;
+		}
+	}
+
+	private Node root;	
+	
+	public void addNode(int key) {
+		Node x = root, y = null;
+		int cmp = 0;
+		while(x != null) {
+			cmp = x.key - key;
+			if(cmp == 0) {
+				return;
+			} else {
+				y = x;
+				if (cmp < 0) {
+					x = x.right;
+				} else {
+					x = x.left;
+				}
+			}
+		}
+		Node newNode = new Node(key);
+		if(y == null) {
+			root = newNode;
+			System.out.println(key +  "корень");
+		} else {
+			if (cmp > 0) {
+                y.left = newNode;
+                System.out.println(key +  " левый для " + y.key);
+			} else {
+                y.right = newNode;
+                System.out.println(key +  " правый для" + y.key);
+			}
+		}		
 	}
 	
-	private static Node root = null;	
-	
-	public static void addNode(int key, int leftNumber, int rightNumber) {
-		Node x = new Node();
-		x.key = key;
-		x.
-	}
+	public static int height(Node node) {
+        if(node == null) return 0;
+        return 1 + Math.max(height(node.left), height(node.right));
+    }
 	
 	public static void main(String[] args) throws Exception { 
     	 Scanner in = new Scanner(new File("input.txt"));
@@ -80,14 +113,17 @@ public class BinaryTree {
     			 array[i][j] = in.nextInt();    			 
     		 }
     	 }
-    	 		 
-    	 //создание дерева на основе данных из массива    	 
+    	 
+    	 //создание дерева
+    	 BinaryTree tree = new BinaryTree();
     	 for(int i = 0; i < stringsCount; i++) {
-    		 addNode;
+    		 tree.addNode(array[i][0]);
     	 }
+    	 
+    	 height = height(tree.root);
+    	 if(height != 0) out.println(height);
     	 
     	 in.close();
     	 out.close();
     }
 }
- 
