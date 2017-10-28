@@ -11,6 +11,7 @@
 [3](src/stack.java) Реализуйте работу стека.   
 [4](src/fifo.java) Реализуйте работу очереди.  
 [5](src/binarytreeheight.java) Найдите высоту дерева поиска.  
+[6](src/binarysubtreeremove.java) Удаление поддеревьев в дереве поиска.  
   
   
   
