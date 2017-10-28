@@ -91,11 +91,11 @@ public class BinaryTree {
 			System.out.println(key +  "корень");
 		} else {
 			if (cmp > 0) {
-                y.left = newNode;
-                System.out.println(key +  "левый для " + y.key);
+				y.left = newNode;
+				System.out.println(key +  "левый для " + y.key);
 			} else {
-                y.right = newNode;
-                System.out.println(key +  "правый для" + y.key);
+			y.right = newNode;
+			System.out.println(key +  "правый для" + y.key);
 			}
 		}		
 	}
@@ -116,6 +116,7 @@ public class BinaryTree {
 				}
 			}
 		}
+		
 		if (x == null) {
 			System.out.println("Ничего не удалено");
             return 0;
