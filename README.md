@@ -12,6 +12,7 @@
 [4](src/fifo.java) Реализуйте работу очереди.  
 [5](src/binarytreeheight.java) Найдите высоту дерева поиска.  
 [6](src/binarysubtreeremove.java) Удаление поддеревьев в дереве поиска.  
+[7](src/avlbalance.java) Определить баланс для каждого из узлов АВЛ-дерева.  
   
   
   

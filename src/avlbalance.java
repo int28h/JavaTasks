@@ -41,3 +41,123 @@
  * 0
  * 0
  */
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.PrintStream;
+import java.util.LinkedList;
+import java.util.Queue;
+import java.util.Scanner;
+
+public class BinaryTree {	
+	private static class Node {		
+		Node left, right;
+		int key;
+		
+		Node(int key) {
+            this.key = key;
+		}
+	}
+
+	private Node root;	
+	
+	public void addNode(int key) {
+		Node x = root, y = null;
+		int cmp = 0;
+		while(x != null) {
+			cmp = x.key - key;
+			if(cmp == 0) {
+				return;
+			} else {
+				y = x;
+				if (cmp < 0) {
+					x = x.right;
+				} else {
+					x = x.left;
+				}
+			}
+		}
+		Node newNode = new Node(key);
+		if(y == null) {
+			root = newNode;
+			System.out.println(key +  "корень");
+		} else {
+			if (cmp > 0) {
+				y.left = newNode;
+				System.out.println(key +  " левый для " + y.key);
+			} else {
+			y.right = newNode;
+			System.out.println(key +  " правый для" + y.key);
+			}
+		}		
+	}
+	
+	public static int height(Node node) {
+        if(node == null) return 0;
+        return 1 + Math.max(height(node.left), height(node.right));
+	}
+	
+	public static int balance(Node x) {
+	   	 Node leftSubtreeRoot = x.left, rightSubtreeRoot = x.right; 
+	   	 int leftSubtreeHeight = 0, rightSubtreeHeight = 0;
+	   	 if(leftSubtreeRoot != null) {
+	   		leftSubtreeHeight = height(leftSubtreeRoot);
+	   	 }
+	   	 if (rightSubtreeRoot != null) {
+	   		rightSubtreeHeight = height(rightSubtreeRoot);
+	   	 }
+	   	 return rightSubtreeHeight - leftSubtreeHeight;
+	}
+	
+    public static void contLevelOrder(Node x, PrintStream out) {
+        Queue<Node> queue = new LinkedList<> ();
+        queue.add(x);
+        while (!queue.isEmpty()) {   
+        	if (queue.isEmpty() != true) {
+            	x = queue.poll();
+            }
+        	
+        	System.out.println("Обрабатывается " + x.key);
+        	out.println(balance(x));
+        	
+            if (x.left != null) {
+            	queue.add(x.left);
+            	System.out.println("В очередь добавлен узел " + x.left.key);
+            }
+            
+            if (x.right != null) {
+	            queue.add(x.right);
+	            System.out.println("В очередь добавлен узел " + x.right.key);
+            }
+        }
+    }
+	
+	public static void main(String[] args) throws Exception { 
+    	 Scanner in = new Scanner(new File("input.txt"));
+    	 FileOutputStream fos = new FileOutputStream("output.txt");
+    	 PrintStream out = new PrintStream(fos);
+    	 
+    	 //чтение данных из файла и запись их в массив
+    	 int nodesCount = in.nextInt();    	 
+    	 int[][] arrayNodes = new int[nodesCount][3];    	 
+    	 for(int i = 0; i < nodesCount; i++) {
+    		 for(int j = 0; j < 3; j++) {
+    			 arrayNodes[i][j] = in.nextInt();    			 
+    		 }
+    	 }
+    	 
+    	 
+    	 //создание дерева
+    	 BinaryTree tree = new BinaryTree();
+    	 for(int i = 0; i < nodesCount; i++) {
+    		 tree.addNode(arrayNodes[i][0]);
+    	 }
+    	 
+    	 //обход всех узлов и вычисление баланса для каждого
+    	 Node x = tree.root;
+    	 contLevelOrder(x, out);
+    	 
+    	 in.close();
+    	 out.close();
+    }
+}
+
