@@ -1,3 +1,11 @@
+### Задачи [отсюда](https://stepik.org/course/217/syllabus)  
+  
+[1](src/smallFibonacci.java) Вычислить число Фибоначчи.  
+[2](src/fibonacciLastNumber.java) Вычислить последнее число n-ого числа Фибоначчи.  
+[3](src/bigFibonacci.java) 
+  
+  
+  
 ### Задачи [отсюда](http://acm.sgu.ru/mobiledev17/problemset.php)    
 [101](src/list-reverse.java) Переворот односвязного списка.   
 [103](src/xmldoc.java) XML-документ.   
