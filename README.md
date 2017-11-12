@@ -2,7 +2,7 @@
   
 [1](src/smallFibonacci.java) Вычислить число Фибоначчи.  
 [2](src/fibonacciLastNumber.java) Вычислить последнее число n-ого числа Фибоначчи.  
-[3](src/bigFibonacci.java) 
+[3](src/greatestcommondivisor.java) Нахождение наибольшего общего делителя.  
   
   
   
