@@ -17,6 +17,13 @@
  * 
  * Формат выходного файла
  * В выходной файл выведите три целых положительных числа, разделенных пробелами — идентификационные номера беднейшего, среднего и самого богатого жителей Сортлэнда. 
+ *
+ * Пример
+ * input
+ * 5
+ * 10.00 8.70 0.01 5.00 3.00
+ * output
+ * 3 4 1
  */
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -29,6 +36,7 @@ public class Main {
     public static void main(String[] args) throws FileNotFoundException {
         Scanner in = new Scanner(new File("input.txt"));
         Float[][] array = new Float[in.nextInt()][2];
+		
         for(int i = 0; i < array.length; i++) {
         	for(int j = 0; j < 1; j++) {
         		array[i][j] = Float.valueOf(in.next());
@@ -36,6 +44,7 @@ public class Main {
         	}
         }
         in.close();
+		
         for(int j = 0; j < array.length; j++){
 	            int i = j - 1;
 	            while(i >= 0 && array[i][0] > array[i+1][0]) {
@@ -54,10 +63,12 @@ public class Main {
         	}
         	System.out.println();
         }
+		
         float poorIndex = array[0][1];
         float averageIndex = array[array.length/2][1];
         float richIndex = array[array.length-1][1];
         System.out.print((int) poorIndex + " " + (int) averageIndex + " " + (int) richIndex);
+		
         FileOutputStream fos = new FileOutputStream("output.txt");
         PrintStream out = new PrintStream(fos);
         out.print((int)poorIndex + " " + (int)averageIndex + " " + (int)richIndex);
