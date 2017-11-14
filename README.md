@@ -4,10 +4,12 @@
 [2](src/stepik-algorithms-methods/fibonacciLastNumber.java) Вычисление последнего числа n-ого числа Фибоначчи.  
 [3](src/stepik-algorithms-methods/greatestcommondivisor.java) Нахождение наибольшего общего делителя.  
 [4](src/stepik-algorithms-methods/coverSegments.java) Покрытие отрезков точками.  
+[5](src/stepik-algorithms-methods/knapsack.java) Задача о непрерывном рюкзаке.  
   
   
   
 ### Задачи [отсюда](http://acm.sgu.ru/mobiledev17/problemset.php)    
+  
 [101](src/list-reverse.java) Переворот односвязного списка.   
 [103](src/xmldoc.java) XML-документ.   
    
