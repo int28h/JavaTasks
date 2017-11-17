@@ -5,6 +5,7 @@
 [3](src/stepik-algorithms-methods/greatestcommondivisor.java) Нахождение наибольшего общего делителя.  
 [4](src/stepik-algorithms-methods/coverSegments.java) Покрытие отрезков точками.  
 [5](src/stepik-algorithms-methods/knapsack.java) Задача о непрерывном рюкзаке.  
+[6](src/stepik-algorithms-methods/huffmancode.java) Кодирование Хаффмана.  
   
   
   
