@@ -1,4 +1,4 @@
-### Задачи [отсюда](https://stepik.org/course/217/syllabus)  
+### Задачи из курса ["Алгоритмы: теория и практика. Методы"](https://stepik.org/course/217/syllabus)  
   
 [1](src/stepik-algorithms-methods/smallFibonacci.java) Вычисление числа Фибоначчи.  
 [2](src/stepik-algorithms-methods/fibonacciLastNumber.java) Вычисление последнего числа n-ого числа Фибоначчи.  
@@ -6,6 +6,7 @@
 [4](src/stepik-algorithms-methods/coverSegments.java) Покрытие отрезков точками.  
 [5](src/stepik-algorithms-methods/knapsack.java) Задача о непрерывном рюкзаке.  
 [6](src/stepik-algorithms-methods/huffmancode.java) Кодирование Хаффмана.  
+[7](src/stepik-algorithms-methods/huffmandecode.java) Декодирование Хаффмана.  
   
   
   
@@ -16,7 +17,7 @@
    
     
 	
-### Задачи [отсюда](https://openedu.ru/course/ITMOUniversity/PADS/)   
+### Задачи из курса ["Алгоритмы программирования и структуры данных"](https://openedu.ru/course/ITMOUniversity/PADS/)   
    
 [1](src/openedu-algorithms/sortland.java) Сортировка двумерного массива вставками.  
 [2](src/openedu-algorithms/inversionscount.java) Подсчет количества инверсий в массиве с помощью алгоритма сортировки слиянием.  
@@ -28,7 +29,7 @@
   
   
   
-### Задачи [отсюда](https://stepik.org/course/187/syllabus)    
+### Задачи из курса ["Java. Базовый курс"](https://stepik.org/course/187/syllabus)    
   
 [0001](src/stepik-java-introduction/0001.java) Реализуйте метод, возвращающий ответ на вопрос: правда ли, что a + b = c? Допустимая погрешность – 0.0001 (1E-4)  
 [0002](src/stepik-java-introduction/0002.java) Реализуйте метод flipBit, изменяющий значение одного бита заданного целого числа на противоположное.  
