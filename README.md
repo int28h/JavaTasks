@@ -7,6 +7,7 @@
 [5](src/stepik-algorithms-methods/knapsack.java) Задача о непрерывном рюкзаке.  
 [6](src/stepik-algorithms-methods/huffmancode.java) Кодирование Хаффмана.  
 [7](src/stepik-algorithms-methods/huffmandecode.java) Декодирование Хаффмана.  
+[8](src/stepik-algorithms-methods/priorityqueue.java) Очередь с приоритетами на основе двоичной кучи.  
   
   
   
