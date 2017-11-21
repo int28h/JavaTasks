@@ -1,3 +1,10 @@
+### Hackerrank: [30 days of Code](https://www.hackerrank.com/domains/tutorials/30-days-of-code)  
+[0](src/hackerrank-30days/0_Hello_World.java) Hello World.  
+[1](src/hackerrank-30days/1_Data_Types.java) Data Types.  
+[2](src/hackerrank-30days/2_Operators.java) Operators.  
+  
+  
+  
 ### Задачи из курса ["Алгоритмы: теория и практика. Методы"](https://stepik.org/course/217/syllabus)  
   
 [1](src/stepik-algorithms-methods/smallFibonacci.java) Вычисление числа Фибоначчи.  
@@ -8,6 +15,10 @@
 [6](src/stepik-algorithms-methods/huffmancode.java) Кодирование Хаффмана.  
 [7](src/stepik-algorithms-methods/huffmandecode.java) Декодирование Хаффмана.  
 [8](src/stepik-algorithms-methods/priorityqueue.java) Очередь с приоритетами на основе двоичной кучи.  
+[9](src/stepik-algorithms-methods/longestsubsequence.java) Наибольшая последовательнократная подпоследовательность.  
+[10](src/stepik-algorithms-methods/longestsubsequence2.java) Наибольшая невозрастающая подпоследовательность.  
+[11](src/stepik-algorithms-methods/ Расстояние редактирования.  
+[12](src/stepik-algorithms-methods/ Рюкзак.  
   
   
   
