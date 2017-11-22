@@ -17,8 +17,8 @@
 [8](src/stepik-algorithms-methods/priorityqueue.java) Очередь с приоритетами на основе двоичной кучи.  
 [9](src/stepik-algorithms-methods/longestsubsequence.java) Наибольшая последовательнократная подпоследовательность.  
 [10](src/stepik-algorithms-methods/longestsubsequence2.java) Наибольшая невозрастающая подпоследовательность.  
-[11](src/stepik-algorithms-methods/ Расстояние редактирования.  
-[12](src/stepik-algorithms-methods/ Рюкзак.  
+[11](src/stepik-algorithms-methods/levenshteindistance.java) Расстояние редактирования.  
+[12](src/stepik-algorithms-methods/backpack.java) Рюкзак.  
   
   
   
