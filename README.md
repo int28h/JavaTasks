@@ -2,6 +2,8 @@
 [0](src/hackerrank-30days/0_Hello_World.java) Hello World.  
 [1](src/hackerrank-30days/1_Data_Types.java) Data Types.  
 [2](src/hackerrank-30days/2_Operators.java) Operators.  
+[3](src/hackerrank-30days/3_Intro_to_Conditional_Statements.java) Intro to Conditional Statements.  
+[4](src/hackerrank-30days/4_Class_vs_Instance.java) Class vs. Instance.  
   
   
   
@@ -16,9 +18,6 @@
 [7](src/stepik-algorithms-methods/huffmandecode.java) Декодирование Хаффмана.  
 [8](src/stepik-algorithms-methods/priorityqueue.java) Очередь с приоритетами на основе двоичной кучи.  
 [9](src/stepik-algorithms-methods/longestsubsequence.java) Наибольшая последовательнократная подпоследовательность.  
-[10](src/stepik-algorithms-methods/longestsubsequence2.java) Наибольшая невозрастающая подпоследовательность.  
-[11](src/stepik-algorithms-methods/levenshteindistance.java) Расстояние редактирования.  
-[12](src/stepik-algorithms-methods/backpack.java) Рюкзак.  
   
   
   
