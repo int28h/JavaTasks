@@ -5,6 +5,7 @@
 [3](src/hackerrank-30days/3_Intro_to_Conditional_Statements.java) Intro to Conditional Statements.  
 [4](src/hackerrank-30days/4_Class_vs_Instance.java) Class vs. Instance.  
 [5](src/hackerrank-30days/5_Loops.java) Loops.  
+[6](src/hackerrank-30days/6_Let's_Review.java) Let's Review.  
   
   
   
