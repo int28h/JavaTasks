@@ -1,3 +1,10 @@
+### Задачи из курса ["Java. Functional programming"](https://stepik.org/course/1595/syllabus)  
+  
+[1](src/functional/1.java) Max of two integers arguments.  
+[2](src/functional/2.java) Next even number.  
+  
+  
+  
 ### Hackerrank: [30 days of Code](https://www.hackerrank.com/domains/tutorials/30-days-of-code)  
 [0](src/hackerrank-30days/0_Hello_World.java) Hello World.  
 [1](src/hackerrank-30days/1_Data_Types.java) Data Types.  
@@ -6,6 +13,7 @@
 [4](src/hackerrank-30days/4_Class_vs_Instance.java) Class vs. Instance.  
 [5](src/hackerrank-30days/5_Loops.java) Loops.  
 [6](src/hackerrank-30days/6_Let's_Review.java) Let's Review.  
+[7](src/hackerrank-30days/7_Arrays.java) Arrays.  
   
   
   
