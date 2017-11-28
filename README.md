@@ -14,6 +14,7 @@
 [5](src/hackerrank-30days/5_Loops.java) Loops.  
 [6](src/hackerrank-30days/6_Let's_Review.java) Let's Review.  
 [7](src/hackerrank-30days/7_Arrays.java) Arrays.  
+[8](src/hackerrank-30days/8_Dictionaries_and_Maps.java) Dictionaries and Maps.  
   
   
   
