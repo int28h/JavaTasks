@@ -15,6 +15,8 @@
 [6](src/hackerrank-30days/6_Let's_Review.java) Let's Review.  
 [7](src/hackerrank-30days/7_Arrays.java) Arrays.  
 [8](src/hackerrank-30days/8_Dictionaries_and_Maps.java) Dictionaries and Maps.  
+[9](src/hackerrank-30days/9_Recursion.java) Recursion.  
+[10](src/hackerrank-30days/10_Binary_Numbers.java) Binary Numbers.  
   
   
   
