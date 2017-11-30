@@ -2,6 +2,8 @@
   
 [1](src/functional/1.java) Max of two integers arguments.  
 [2](src/functional/2.java) Next even number.  
+[3](src/functional/3.java) Lambda expression that accepts seven string arguments and returns a string in upper case concatenated from all of them.  
+[4](src/functional/4.java) Production of all numbers in the range.  
   
   
   
@@ -17,6 +19,7 @@
 [8](src/hackerrank-30days/8_Dictionaries_and_Maps.java) Dictionaries and Maps.  
 [9](src/hackerrank-30days/9_Recursion.java) Recursion.  
 [10](src/hackerrank-30days/10_Binary_Numbers.java) Binary Numbers.  
+[11](src/hackerrank-30days/11_2D_Arrays.java) 2D Arrays.  
   
   
   
