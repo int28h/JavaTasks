@@ -20,6 +20,7 @@
 [9](src/hackerrank-30days/9_Recursion.java) Recursion.  
 [10](src/hackerrank-30days/10_Binary_Numbers.java) Binary Numbers.  
 [11](src/hackerrank-30days/11_2D_Arrays.java) 2D Arrays.  
+[12](src/hackerrank-30days/12_Inheritance.java) Inheritance.  
   
   
   
