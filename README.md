@@ -4,6 +4,7 @@
 [2](src/functional/2.java) Next even number.  
 [3](src/functional/3.java) Lambda expression that accepts seven string arguments and returns a string in upper case concatenated from all of them.  
 [4](src/functional/4.java) Production of all numbers in the range.  
+[5](src/functional/5.java) A lambda expression that accepts a list of strings.  
   
   
   
@@ -21,6 +22,7 @@
 [10](src/hackerrank-30days/10_Binary_Numbers.java) Binary Numbers.  
 [11](src/hackerrank-30days/11_2D_Arrays.java) 2D Arrays.  
 [12](src/hackerrank-30days/12_Inheritance.java) Inheritance.  
+[13[(src/hackerrank-30days/13_Abstract_Classes.java) Abstract Classes.  
   
   
   
