@@ -24,8 +24,9 @@
 [10](src/hackerrank-30days/10_Binary_Numbers.java) Binary Numbers.  
 [11](src/hackerrank-30days/11_2D_Arrays.java) 2D Arrays.  
 [12](src/hackerrank-30days/12_Inheritance.java) Inheritance.  
-[13[(src/hackerrank-30days/13_Abstract_Classes.java) Abstract Classes.  
+[13](src/hackerrank-30days/13_Abstract_Classes.java) Abstract Classes.  
 [14](src/hackerrank-30days/14_Scope.java) Scope.  
+[15](src/hackerrank-30days/15_Linked_List.java) Linked List.  
   
   
   
