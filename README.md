@@ -10,26 +10,6 @@
   
   
   
-### Hackerrank: [30 days of Code](https://www.hackerrank.com/domains/tutorials/30-days-of-code)  
-[0](src/hackerrank-30days/0_Hello_World.java) Hello World.  
-[1](src/hackerrank-30days/1_Data_Types.java) Data Types.  
-[2](src/hackerrank-30days/2_Operators.java) Operators.  
-[3](src/hackerrank-30days/3_Intro_to_Conditional_Statements.java) Intro to Conditional Statements.  
-[4](src/hackerrank-30days/4_Class_vs_Instance.java) Class vs. Instance.  
-[5](src/hackerrank-30days/5_Loops.java) Loops.  
-[6](src/hackerrank-30days/6_Let's_Review.java) Let's Review.  
-[7](src/hackerrank-30days/7_Arrays.java) Arrays.  
-[8](src/hackerrank-30days/8_Dictionaries_and_Maps.java) Dictionaries and Maps.  
-[9](src/hackerrank-30days/9_Recursion.java) Recursion.  
-[10](src/hackerrank-30days/10_Binary_Numbers.java) Binary Numbers.  
-[11](src/hackerrank-30days/11_2D_Arrays.java) 2D Arrays.  
-[12](src/hackerrank-30days/12_Inheritance.java) Inheritance.  
-[13](src/hackerrank-30days/13_Abstract_Classes.java) Abstract Classes.  
-[14](src/hackerrank-30days/14_Scope.java) Scope.  
-[15](src/hackerrank-30days/15_Linked_List.java) Linked List.  
-  
-  
-  
 ### Задачи из курса ["Алгоритмы: теория и практика. Методы"](https://stepik.org/course/217/syllabus)  
   
 [1](src/stepik-algorithms-methods/smallFibonacci.java) Вычисление числа Фибоначчи.  
@@ -60,6 +40,29 @@
 [5](src/openedu-algorithms/binarytreeheight.java) Нахождение высоты дерева поиска.  
 [6](src/openedu-algorithms/binarysubtreeremove.java) Удаление поддеревьев в дереве поиска.  
 [7](src/openedu-algorithms/avlbalance.java) Определение баланса для каждого из узлов АВЛ-дерева.  
+  
+  
+  
+### Hackerrank: [30 days of Code](https://www.hackerrank.com/domains/tutorials/30-days-of-code)  
+[0](src/hackerrank-30days/0_Hello_World.java) Hello World.  
+[1](src/hackerrank-30days/1_Data_Types.java) Data Types.  
+[2](src/hackerrank-30days/2_Operators.java) Operators.  
+[3](src/hackerrank-30days/3_Intro_to_Conditional_Statements.java) Intro to Conditional Statements.  
+[4](src/hackerrank-30days/4_Class_vs_Instance.java) Class vs. Instance.  
+[5](src/hackerrank-30days/5_Loops.java) Loops.  
+[6](src/hackerrank-30days/6_Let's_Review.java) Let's Review.  
+[7](src/hackerrank-30days/7_Arrays.java) Arrays.  
+[8](src/hackerrank-30days/8_Dictionaries_and_Maps.java) Dictionaries and Maps.  
+[9](src/hackerrank-30days/9_Recursion.java) Recursion.  
+[10](src/hackerrank-30days/10_Binary_Numbers.java) Binary Numbers.  
+[11](src/hackerrank-30days/11_2D_Arrays.java) 2D Arrays.  
+[12](src/hackerrank-30days/12_Inheritance.java) Inheritance.  
+[13](src/hackerrank-30days/13_Abstract_Classes.java) Abstract Classes.  
+[14](src/hackerrank-30days/14_Scope.java) Scope.  
+[15](src/hackerrank-30days/15_Linked_List.java) Linked List.  
+[16](src/hackerrank-30days/16_Exceptions_-_String_to_Integer.java) Exceptions - String to Integer.  
+[17](src/hackerrank-30days/17_More_Exceptions.java) More Exceptions.  
+[18](src/hackerrank-30days/18_Queues_and_Stacks.java) Queues and Stacks.  
   
   
   
