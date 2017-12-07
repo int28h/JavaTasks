@@ -63,6 +63,7 @@
 [16](src/hackerrank-30days/16_Exceptions_-_String_to_Integer.java) Exceptions - String to Integer.  
 [17](src/hackerrank-30days/17_More_Exceptions.java) More Exceptions.  
 [18](src/hackerrank-30days/18_Queues_and_Stacks.java) Queues and Stacks.  
+[19](src/hackerrank-30days/19_Interfaces.java) Interfaces.  
   
   
   
