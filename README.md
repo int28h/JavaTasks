@@ -66,6 +66,14 @@
 [19](src/hackerrank-30days/19_Interfaces.java) Interfaces.  
 [20](src/hackerrank-30days/20_Sorting.java) Sorting.  
 [21](src/hackerrank-30days/21_Generics.java) Generics.  
+[22](src/hackerrank-30days/22_Binary_Search_Trees.java) Binary Search Trees.  
+[23](src/hackerrank-30days/23_BST_Level-Order_Traversal.java) BST Level-Order Traversal.  
+[24](src/hackerrank-30days/24_More_Linked_Lists.java) More Linked Lists.  
+[25](src/hackerrank-30days/25_Running_Time_and_Complexity.java) Running Time and Complexity.  
+[26](src/hackerrank-30days/26_Nested_Logic.java) Nested Logic.  
+[27](src/hackerrank-30days/27_Testing.java) Testing.  
+[28](src/hackerrank-30days/28_RegEx,_Patterns,_and_Intro_to_Databases.java) RegEx, Patterns, and Intro to Databases.  
+[29](src/hackerrank-30days/29_Bitwise_AND.java) Bitwise AND.  
   
   
   
