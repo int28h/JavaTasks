@@ -6,7 +6,9 @@
 [4](src/functional/4.java) Production of all numbers in the range.  
 [5](src/functional/5.java) A lambda expression that accepts a list of strings.  
 [6](src/functional/6.java) A lambda expression with using closure (calculating).  
-[7](src/functional/7.java) A lambda expression with using closure (that adds prefix and suffix to the string).    
+[7](src/functional/7.java) A lambda expression with using closure (that adds prefix and suffix to the string).  
+[8](src/functional/8.java) Behaviour parametrization with lambda expressions.  
+[9](src/functional/9.java) Functional interfaces.  
   
   
   
