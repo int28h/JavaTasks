@@ -12,6 +12,9 @@
 [10](src/functional/10.java) Composing predicates.  
 [11](src/functional/11.java) Checking if a number is prime.  
 [12](src/functional/12.java) Bad words detecting.  
+[13](src/functional/13.java) Numbers filtering.  
+[14](src/functional/14.java) Calculating a factorial.  
+[15](src/functional/15.java) The sum of odd numbers.  
   
   
   

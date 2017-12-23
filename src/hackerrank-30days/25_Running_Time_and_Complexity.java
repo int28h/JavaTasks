@@ -10,7 +10,7 @@ public class Solution {
             prime = false;
             break;
         }
-        if (( n%2 !=0 && prime && n > 2) || n == 2) {
+        if (( n % 2 != 0 && prime && n > 2) || n == 2) {
             return true;
         } 
         return false;
