@@ -9,6 +9,9 @@
 [7](src/functional/7.java) A lambda expression with using closure (that adds prefix and suffix to the string).  
 [8](src/functional/8.java) Behaviour parametrization with lambda expressions.  
 [9](src/functional/9.java) Functional interfaces.  
+[10](src/functional/10.java) Composing predicates.  
+[11](src/functional/11.java) Checking if a number is prime.  
+[12](src/functional/12.java) Bad words detecting.  
   
   
   
