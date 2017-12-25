@@ -15,6 +15,16 @@
 [13](src/functional/13.java) Numbers filtering.  
 [14](src/functional/14.java) Calculating a factorial.  
 [15](src/functional/15.java) The sum of odd numbers.  
+[16](src/functional/16.java) The ﻿general number of employees.  
+[17](src/functional/17.java) The total sum of canceled transactions.  
+[18](src/functional/18.java) Collectors in practice: the product of squares.  
+[19](src/functional/19.java) Collectors in practice: partitioning words into groups.  
+[20](src/functional/20.java) The total sum of transactions by each account.  
+[21](src/functional/21.java) Click count.  
+[22](src/functional/22.java) Parallel filtering of prime numbers.  
+[23](src/functional/23.java) Currying functions 1.  
+[24](src/functional/24.java) Currying functions 2.  
+[25](src/functional/25.java) Optional in action.  
   
   
   
