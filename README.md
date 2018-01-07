@@ -1,30 +1,37 @@
+### Задачи из курса ["Hadoop. Система для обработки больших объемов данных"](https://stepik.org/course/150/syllabus)  
+  
+[1](src/stepik-hadoop/01.java) Напишите программу, которая реализует mapper для задачи WordCount в Hadoop Streaming.  
+[2](src/stepik-hadoop/02.java) Напишите программу, которая реализует reducer для задачи WordCount в Hadoop Streaming.  
+  
+  
+  
 ### Задачи из курса ["Java. Functional programming"](https://stepik.org/course/1595/syllabus)  
   
-[1](src/functional/1.java) Max of two integers arguments.  
-[2](src/functional/2.java) Next even number.  
-[3](src/functional/3.java) Lambda expression that accepts seven string arguments and returns a string in upper case concatenated from all of them.  
-[4](src/functional/4.java) Production of all numbers in the range.  
-[5](src/functional/5.java) A lambda expression that accepts a list of strings.  
-[6](src/functional/6.java) A lambda expression with using closure (calculating).  
-[7](src/functional/7.java) A lambda expression with using closure (that adds prefix and suffix to the string).  
-[8](src/functional/8.java) Behaviour parametrization with lambda expressions.  
-[9](src/functional/9.java) Functional interfaces.  
-[10](src/functional/10.java) Composing predicates.  
-[11](src/functional/11.java) Checking if a number is prime.  
-[12](src/functional/12.java) Bad words detecting.  
-[13](src/functional/13.java) Numbers filtering.  
-[14](src/functional/14.java) Calculating a factorial.  
-[15](src/functional/15.java) The sum of odd numbers.  
-[16](src/functional/16.java) The ﻿general number of employees.  
-[17](src/functional/17.java) The total sum of canceled transactions.  
-[18](src/functional/18.java) Collectors in practice: the product of squares.  
-[19](src/functional/19.java) Collectors in practice: partitioning words into groups.  
-[20](src/functional/20.java) The total sum of transactions by each account.  
-[21](src/functional/21.java) Click count.  
-[22](src/functional/22.java) Parallel filtering of prime numbers.  
-[23](src/functional/23.java) Currying functions 1.  
-[24](src/functional/24.java) Currying functions 2.  
-[25](src/functional/25.java) Optional in action.  
+[1](src/stepik-functional/1.java) Max of two integers arguments.  
+[2](src/stepik-functional/2.java) Next even number.  
+[3](src/stepik-functional/3.java) Lambda expression that accepts seven string arguments and returns a string in upper case concatenated from all of them.  
+[4](src/stepik-functional/4.java) Production of all numbers in the range.  
+[5](src/stepik-functional/5.java) A lambda expression that accepts a list of strings.  
+[6](src/stepik-functional/6.java) A lambda expression with using closure (calculating).  
+[7](src/stepik-functional/7.java) A lambda expression with using closure (that adds prefix and suffix to the string).  
+[8](src/stepik-functional/8.java) Behaviour parametrization with lambda expressions.  
+[9](src/stepik-functional/9.java) Functional interfaces.  
+[10](src/stepik-functional/10.java) Composing predicates.  
+[11](src/stepik-functional/11.java) Checking if a number is prime.  
+[12](src/stepik-functional/12.java) Bad words detecting.  
+[13](src/stepik-functional/13.java) Numbers filtering.  
+[14](src/stepik-functional/14.java) Calculating a factorial.  
+[15](src/stepik-functional/15.java) The sum of odd numbers.  
+[16](src/stepik-functional/16.java) The ﻿general number of employees.  
+[17](src/stepik-functional/17.java) The total sum of canceled transactions.  
+[18](src/stepik-functional/18.java) Collectors in practice: the product of squares.  
+[19](src/stepik-functional/19.java) Collectors in practice: partitioning words into groups.  
+[20](src/stepik-functional/20.java) The total sum of transactions by each account.  
+[21](src/stepik-functional/21.java) Click count.  
+[22](src/stepik-functional/22.java) Parallel filtering of prime numbers.  
+[23](src/stepik-functional/23.java) Currying functions 1.  
+[24](src/stepik-functional/24.java) Currying functions 2.  
+[25](src/stepik-functional/25.java) Optional in action.  
   
   
   
