@@ -2,6 +2,7 @@
   
 [1](src/stepik-hadoop/01.java) Напишите программу, которая реализует mapper для задачи WordCount в Hadoop Streaming.  
 [2](src/stepik-hadoop/02.java) Напишите программу, которая реализует reducer для задачи WordCount в Hadoop Streaming.  
+[3](src/stepik-hadoop/03.java) Напишите программу, которая реализует In-mapper combining v.1 для задачи WordCount в Hadoop Streaming.  
   
   
   
