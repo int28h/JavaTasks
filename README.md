@@ -1,22 +1,28 @@
 ### Задачи из курса ["Hadoop. Система для обработки больших объемов данных"](https://stepik.org/course/150/syllabus)  
   
-[1](src/stepik-hadoop/01.java) Напишите программу, которая реализует mapper для задачи WordCount в Hadoop Streaming.  
-[2](src/stepik-hadoop/02.java) Напишите программу, которая реализует reducer для задачи WordCount в Hadoop Streaming.  
-[3](src/stepik-hadoop/03.java) Напишите программу, которая реализует In-mapper combining v.1 для задачи WordCount в Hadoop Streaming.  
+[01](src/stepik-hadoop/01.java) Напишите программу, которая реализует mapper для задачи WordCount в Hadoop Streaming.  
+[02](src/stepik-hadoop/02.java) Напишите программу, которая реализует reducer для задачи WordCount в Hadoop Streaming.  
+[03](src/stepik-hadoop/03.java) Напишите программу, которая реализует In-mapper combining v.1 для задачи WordCount в Hadoop Streaming.  
+[04](src/stepik-hadoop/04.java) Напишите программу, которая реализует In-mapper combining v.2 для задачи WordCount в Hadoop Streaming.  
+[05](src/stepik-hadoop/05.java) Реализуйте reducer в задаче подсчета среднего времени, проведенного пользователем на странице.  
+[06](src/stepik-hadoop/06.java) Реализуйте Combiner в задаче подсчета среднего времени, проведенного пользователем на странице.  
+[07](src/stepik-hadoop/07.java) Реализуйте mapper из фазы 1 задачи Distinct Values v1.  
+[08](src/stepik-hadoop/08.java) Реализуйте reducer из фазы 1 задачи Distinct Values v1.  
+[09](src/stepik-hadoop/09.java) Реализуйте mapper из фазы 2 задачи Distinct Values v1.  
   
   
   
 ### Задачи из курса ["Java. Functional programming"](https://stepik.org/course/1595/syllabus)  
   
-[1](src/stepik-functional/1.java) Max of two integers arguments.  
-[2](src/stepik-functional/2.java) Next even number.  
-[3](src/stepik-functional/3.java) Lambda expression that accepts seven string arguments and returns a string in upper case concatenated from all of them.  
-[4](src/stepik-functional/4.java) Production of all numbers in the range.  
-[5](src/stepik-functional/5.java) A lambda expression that accepts a list of strings.  
-[6](src/stepik-functional/6.java) A lambda expression with using closure (calculating).  
-[7](src/stepik-functional/7.java) A lambda expression with using closure (that adds prefix and suffix to the string).  
-[8](src/stepik-functional/8.java) Behaviour parametrization with lambda expressions.  
-[9](src/stepik-functional/9.java) Functional interfaces.  
+[01](src/stepik-functional/1.java) Max of two integers arguments.  
+[02](src/stepik-functional/2.java) Next even number.  
+[03](src/stepik-functional/3.java) Lambda expression that accepts seven string arguments and returns a string in upper case concatenated from all of them.  
+[04](src/stepik-functional/4.java) Production of all numbers in the range.  
+[05](src/stepik-functional/5.java) A lambda expression that accepts a list of strings.  
+[06](src/stepik-functional/6.java) A lambda expression with using closure (calculating).  
+[07](src/stepik-functional/7.java) A lambda expression with using closure (that adds prefix and suffix to the string).  
+[08](src/stepik-functional/8.java) Behaviour parametrization with lambda expressions.  
+[09](src/stepik-functional/9.java) Functional interfaces.  
 [10](src/stepik-functional/10.java) Composing predicates.  
 [11](src/stepik-functional/11.java) Checking if a number is prime.  
 [12](src/stepik-functional/12.java) Bad words detecting.  
@@ -70,16 +76,16 @@
   
   
 ### Hackerrank: [30 days of Code](https://www.hackerrank.com/domains/tutorials/30-days-of-code)  
-[0](src/hackerrank-30days/0_Hello_World.java) Hello World.  
-[1](src/hackerrank-30days/1_Data_Types.java) Data Types.  
-[2](src/hackerrank-30days/2_Operators.java) Operators.  
-[3](src/hackerrank-30days/3_Intro_to_Conditional_Statements.java) Intro to Conditional Statements.  
-[4](src/hackerrank-30days/4_Class_vs_Instance.java) Class vs. Instance.  
-[5](src/hackerrank-30days/5_Loops.java) Loops.  
-[6](src/hackerrank-30days/6_Let's_Review.java) Let's Review.  
-[7](src/hackerrank-30days/7_Arrays.java) Arrays.  
-[8](src/hackerrank-30days/8_Dictionaries_and_Maps.java) Dictionaries and Maps.  
-[9](src/hackerrank-30days/9_Recursion.java) Recursion.  
+[00](src/hackerrank-30days/0_Hello_World.java) Hello World.  
+[01](src/hackerrank-30days/1_Data_Types.java) Data Types.  
+[02](src/hackerrank-30days/2_Operators.java) Operators.  
+[03](src/hackerrank-30days/3_Intro_to_Conditional_Statements.java) Intro to Conditional Statements.  
+[04](src/hackerrank-30days/4_Class_vs_Instance.java) Class vs. Instance.  
+[05](src/hackerrank-30days/5_Loops.java) Loops.  
+[06](src/hackerrank-30days/6_Let's_Review.java) Let's Review.  
+[07](src/hackerrank-30days/7_Arrays.java) Arrays.  
+[08](src/hackerrank-30days/8_Dictionaries_and_Maps.java) Dictionaries and Maps.  
+[09](src/hackerrank-30days/9_Recursion.java) Recursion.  
 [10](src/hackerrank-30days/10_Binary_Numbers.java) Binary Numbers.  
 [11](src/hackerrank-30days/11_2D_Arrays.java) 2D Arrays.  
 [12](src/hackerrank-30days/12_Inheritance.java) Inheritance.  
