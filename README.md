@@ -9,6 +9,7 @@
 [07](src/stepik-hadoop/07.java) Реализуйте mapper из фазы 1 задачи Distinct Values v1.  
 [08](src/stepik-hadoop/08.java) Реализуйте reducer из фазы 1 задачи Distinct Values v1.  
 [09](src/stepik-hadoop/09.java) Реализуйте mapper из фазы 2 задачи Distinct Values v1.  
+[10](src/stepik-hadoop/10.java) Реализуйте reducer из задачи Distinct Values v2.  
   
   
   
