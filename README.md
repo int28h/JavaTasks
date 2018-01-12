@@ -10,6 +10,14 @@
 [08](src/stepik-hadoop/08.java) Реализуйте reducer из фазы 1 задачи Distinct Values v1.  
 [09](src/stepik-hadoop/09.java) Реализуйте mapper из фазы 2 задачи Distinct Values v1.  
 [10](src/stepik-hadoop/10.java) Реализуйте reducer из задачи Distinct Values v2.  
+[11](src/stepik-hadoop/11.java) Реализуйте mapper для задачи Cross-Correlation, который для каждого кортежа создает все пары элементов, входящих в него.  
+[12](src/stepik-hadoop/12.java) Реализуйте mapper для задачи Cross-Correlation, который для каждого объекта из кортежа создает stripe.  
+[13](src/stepik-hadoop/13.java) Напишите mapper с помощью Hadoop Streaming, печатающий только те строки из файла, которые соответствуют пользователю user10.  
+[14](src/stepik-hadoop/14.java) Напишите mapper с помощью Hadoop Streaming, печатающий URL из каждой строки.  
+[15](src/stepik-hadoop/15.java) Напишите reducer, который объединяет элементы из множества A и B.  
+[16](src/stepik-hadoop/16.java) Напишите reducer, который делает пересечение элементов из множества A и B.  
+[17](src/stepik-hadoop/17.java) Напишите reducer, который делает вычитание элементов множества B из множества A.  
+[18](src/stepik-hadoop/18.java) Напишите reducer, который реализует симметричную разность множеств A и B.  
   
   
   
