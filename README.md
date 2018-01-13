@@ -19,6 +19,10 @@
 [17](src/stepik-hadoop/17.java) Напишите reducer, который делает вычитание элементов множества B из множества A.  
 [18](src/stepik-hadoop/18.java) Напишите reducer, который реализует симметричную разность множеств A и B.  
 [19](src/stepik-hadoop/19.java) Напишите reducer, реализующий объединение двух файлов (Join) по id пользователя.  
+[20](src/stepik-hadoop/20.java) Реализуйте mapper первой mapreduce задачи для расчета TF-IDF с помощью Hadoop Streaming.  
+[21](src/stepik-hadoop/21.java) Реализуйте reducer первой mapreduce задачи для расчета TF-IDF с помощью Hadoop Streaming.  
+[22](src/stepik-hadoop/22.java) Реализуйте mapper ﻿второй mapreduce задачи для расчета TF-IDF с помощью Hadoop Streaming.  
+[23](src/stepik-hadoop/23.java) Реализуйте reducer второй mapreduce задачи для расчета TF-IDF с помощью Hadoop Streaming.  
   
   
   
