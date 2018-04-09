@@ -1,30 +1,6 @@
-### Задачи из курса ["Java. Functional programming"](https://stepik.org/course/1595/syllabus)  
+### Задачи из курса ["Алгоритмы: теория и практика. Структуры данных"](https://stepik.org/course/1547/syllabus)  
   
-[01](src/stepik-functional/1.java) Max of two integers arguments.  
-[02](src/stepik-functional/2.java) Next even number.  
-[03](src/stepik-functional/3.java) Lambda expression that accepts seven string arguments and returns a string in upper case concatenated from all of them.  
-[04](src/stepik-functional/4.java) Production of all numbers in the range.  
-[05](src/stepik-functional/5.java) A lambda expression that accepts a list of strings.  
-[06](src/stepik-functional/6.java) A lambda expression with using closure (calculating).  
-[07](src/stepik-functional/7.java) A lambda expression with using closure (that adds prefix and suffix to the string).  
-[08](src/stepik-functional/8.java) Behaviour parametrization with lambda expressions.  
-[09](src/stepik-functional/9.java) Functional interfaces.  
-[10](src/stepik-functional/10.java) Composing predicates.  
-[11](src/stepik-functional/11.java) Checking if a number is prime.  
-[12](src/stepik-functional/12.java) Bad words detecting.  
-[13](src/stepik-functional/13.java) Numbers filtering.  
-[14](src/stepik-functional/14.java) Calculating a factorial.  
-[15](src/stepik-functional/15.java) The sum of odd numbers.  
-[16](src/stepik-functional/16.java) The ﻿general number of employees.  
-[17](src/stepik-functional/17.java) The total sum of canceled transactions.  
-[18](src/stepik-functional/18.java) Collectors in practice: the product of squares.  
-[19](src/stepik-functional/19.java) Collectors in practice: partitioning words into groups.  
-[20](src/stepik-functional/20.java) The total sum of transactions by each account.  
-[21](src/stepik-functional/21.java) Click count.  
-[22](src/stepik-functional/22.java) Parallel filtering of prime numbers.  
-[23](src/stepik-functional/23.java) Currying functions 1.  
-[24](src/stepik-functional/24.java) Currying functions 2.  
-[25](src/stepik-functional/25.java) Optional in action.  
+[01](src/stepik-algorithms-structures/brackets.java) Расстановка скобок в коде.  
   
   
   
@@ -58,6 +34,36 @@
 [5](src/openedu-algorithms/binarytreeheight.java) Нахождение высоты дерева поиска.  
 [6](src/openedu-algorithms/binarysubtreeremove.java) Удаление поддеревьев в дереве поиска.  
 [7](src/openedu-algorithms/avlbalance.java) Определение баланса для каждого из узлов АВЛ-дерева.  
+  
+  
+  
+### Задачи из курса ["Java. Functional programming"](https://stepik.org/course/1595/syllabus)  
+  
+[01](src/stepik-functional/1.java) Max of two integers arguments.  
+[02](src/stepik-functional/2.java) Next even number.  
+[03](src/stepik-functional/3.java) Lambda expression that accepts seven string arguments and returns a string in upper case concatenated from all of them.  
+[04](src/stepik-functional/4.java) Production of all numbers in the range.  
+[05](src/stepik-functional/5.java) A lambda expression that accepts a list of strings.  
+[06](src/stepik-functional/6.java) A lambda expression with using closure (calculating).  
+[07](src/stepik-functional/7.java) A lambda expression with using closure (that adds prefix and suffix to the string).  
+[08](src/stepik-functional/8.java) Behaviour parametrization with lambda expressions.  
+[09](src/stepik-functional/9.java) Functional interfaces.  
+[10](src/stepik-functional/10.java) Composing predicates.  
+[11](src/stepik-functional/11.java) Checking if a number is prime.  
+[12](src/stepik-functional/12.java) Bad words detecting.  
+[13](src/stepik-functional/13.java) Numbers filtering.  
+[14](src/stepik-functional/14.java) Calculating a factorial.  
+[15](src/stepik-functional/15.java) The sum of odd numbers.  
+[16](src/stepik-functional/16.java) The ﻿general number of employees.  
+[17](src/stepik-functional/17.java) The total sum of canceled transactions.  
+[18](src/stepik-functional/18.java) Collectors in practice: the product of squares.  
+[19](src/stepik-functional/19.java) Collectors in practice: partitioning words into groups.  
+[20](src/stepik-functional/20.java) The total sum of transactions by each account.  
+[21](src/stepik-functional/21.java) Click count.  
+[22](src/stepik-functional/22.java) Parallel filtering of prime numbers.  
+[23](src/stepik-functional/23.java) Currying functions 1.  
+[24](src/stepik-functional/24.java) Currying functions 2.  
+[25](src/stepik-functional/25.java) Optional in action.  
   
   
   
