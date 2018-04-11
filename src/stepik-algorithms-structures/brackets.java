@@ -1,5 +1,5 @@
 ﻿/*
-Формат ввоода. 
+Формат ввода. 
 Строка s[1...n], состоящая из заглавных и прописных букв латинского алфавита, цифр, 
 знаков препинания и скобок из множества []{}().
 
@@ -27,6 +27,11 @@ Sample Input 4:
 foo(bar[i);
 Sample Output 4:
 10
+
+Sample Output 5:
+(((
+Sample Output 5:
+1
 */
 import java.util.LinkedList;
 import java.util.List;

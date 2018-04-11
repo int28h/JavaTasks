@@ -1,6 +1,7 @@
 ### Задачи из курса ["Алгоритмы: теория и практика. Структуры данных"](https://stepik.org/course/1547/syllabus)  
   
-[01](src/stepik-algorithms-structures/brackets.java) Расстановка скобок в коде.  
+[01](src/stepik-algorithms-structures/brackets.java) Баланс скобок.  
+[02](src/stepik-algorithms-structures/tree-height.java) Определить высоту небинарного дерева.  
   
   
   
