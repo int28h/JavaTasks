@@ -39,3 +39,57 @@ Sample Input 3:
 Sample Output 3:
 0
 */
+import java.util.Queue;
+import java.util.Scanner;
+import java.util.concurrent.LinkedBlockingQueue;
+
+public class Packages {	
+	private static class Package{
+		int arrival;
+		int duration;
+		int finish;
+		
+		private Package(int arrival, int duration) {
+			this.arrival = arrival;
+			this.duration = duration;
+		}
+	}
+	public static void main(final String[] args) throws Exception {
+		Scanner in = new Scanner(System.in);		
+		
+		int size = in.nextInt();
+		int packagesCount = in.nextInt();
+		
+		int time = 0;
+		
+		Queue<Package> queue = new LinkedBlockingQueue<>(size);
+		
+		for(int i = 0; i < packagesCount; i++) {
+			Package entry = new Package(in.nextInt(), in.nextInt());
+			
+			if(queue.size() < size) {
+				if(queue.isEmpty()) {
+					queue.add(entry);
+					entry.finish = entry.arrival + entry.duration;
+					time = entry.finish;
+					System.out.println(entry.arrival);
+					continue;
+				}
+				queue.add(entry);
+				entry.finish = Math.max(time, entry.arrival + entry.duration);
+				time = entry.finish;
+				System.out.println(Math.max(queue.peek().finish, entry.arrival));
+			} else {
+				if(queue.peek().finish > entry.arrival) {
+					System.out.println(-1);
+				} else {
+					queue.poll();
+					queue.add(entry);					
+					entry.finish = Math.max(time, entry.arrival + entry.duration);
+					time = entry.finish;
+					System.out.println(Math.max(queue.peek().finish, entry.arrival));
+				}
+			}
+		}
+	}
+}
