@@ -63,20 +63,21 @@ public class StackWithMax {
 		Stack<Integer> maxStack = new Stack<>();
 		
 		for (int i = 0; i <= requestCount; i++) {
-            String request = in.nextLine();
-            if(request.contains("push")) {
-                stack.push(Integer.parseInt(request.split(" ")[1]));
-                if (maxStack.isEmpty() || maxStack.peek() < stack.peek()) {
-                    maxStack.push(stack.peek());
-                } else {
-                	maxStack.push(maxStack.peek());
-                }
-            } else if (request.equals("max")) {
-                System.out.println(maxStack.peek());
-            } else if (request.equals("pop")) {
-                stack.pop();
-                maxStack.pop();
-            }
-        }
+			String request = in.nextLine();
+            		if(request.contains("push")) {
+                		stack.push(Integer.parseInt(request.split(" ")[1]));
+                		if (maxStack.isEmpty() || maxStack.peek() < stack.peek()) {
+                    			maxStack.push(stack.peek());
+                		} else {
+                			maxStack.push(maxStack.peek());
+                		}
+            		} else if (request.equals("max")) {
+                		System.out.println(maxStack.peek());
+            		} else if (request.equals("pop")) {
+				stack.pop();
+                		maxStack.pop();
+            		}
+        	}
 	}
 }
+
