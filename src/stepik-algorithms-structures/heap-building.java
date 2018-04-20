@@ -37,9 +37,55 @@ Sample Output 2:
 0 2
 2 5
 */
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Scanner;
 
+public class MinHeapBuilding {
+	private static int arrSize;
+	private static int[] arr;	
+	private static List<String> log = new LinkedList<>();
+	
+	private static void siftDown(int i) {
+		int left = 2 * i + 1;
+		int right = 2 * i + 2;
+		int min = i;
+		
+		if (left < arrSize) {
+            min = left;
+		}
 
-
-
-
-
+        if (right < arrSize && arr[right] < arr[left]) {
+        	min = right;
+        }
+        
+        if (i != min && arr[i] > arr[min]) {
+        	int temp = arr[i];
+            arr[i] = arr[min];
+            arr[min] = temp;            
+            
+            log.add(new String(i + " " + min));
+            siftDown(min);
+        }
+	}
+	
+	public static void main(final String[] args) throws Exception {
+		Scanner in = new Scanner(System.in);		
+		
+		arrSize = in.nextInt();
+		arr = new int[arrSize];
+		for(int i = 0; i < arrSize; i++) {
+			arr[i] = in.nextInt();
+		}		
+		in.close();		
+		
+		for(int i = arrSize; i >= 0; i--) {
+			siftDown(i);
+		}
+		
+		System.out.println(log.size());
+		for(String s : log) {
+			System.out.println(s);
+		}
+	}
+}
