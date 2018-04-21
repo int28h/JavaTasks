@@ -3,7 +3,7 @@
 [01](src/stepik-algorithms-structures/brackets.java) Баланс скобок.  
 [02](src/stepik-algorithms-structures/tree-height.java) Определить высоту небинарного дерева.  
 [03](src/stepik-algorithms-structures/packages.java) Симулятор обработки сетевых пакетов.  
-[04](src/stepik-algorithms-structures/stack-with-max.java) Стек с поддержкой максимума. 
+[04](src/stepik-algorithms-structures/stack-with-max.java) Стек с поддержкой максимума.  
 [05](src/stepik-algorithms-structures/sliding-window-maximum.java) Максимум в скользящем окне.  
   
   
