@@ -12,15 +12,15 @@
   
 ### Задачи из курса ["Алгоритмы: теория и практика. Методы"](https://stepik.org/course/217/syllabus)  
   
-[1](src/stepik-algorithms-methods/smallFibonacci.java) Вычисление числа Фибоначчи.  
-[2](src/stepik-algorithms-methods/fibonacciLastNumber.java) Вычисление последнего числа n-ого числа Фибоначчи.  
-[3](src/stepik-algorithms-methods/greatestcommondivisor.java) Нахождение наибольшего общего делителя.  
-[4](src/stepik-algorithms-methods/coverSegments.java) Покрытие отрезков точками.  
-[5](src/stepik-algorithms-methods/knapsack.java) Задача о непрерывном рюкзаке.  
-[6](src/stepik-algorithms-methods/huffmancode.java) Кодирование Хаффмана.  
-[7](src/stepik-algorithms-methods/huffmandecode.java) Декодирование Хаффмана.  
-[8](src/stepik-algorithms-methods/priorityqueue.java) Очередь с приоритетами на основе двоичной кучи.  
-[9](src/stepik-algorithms-methods/longestsubsequence.java) Наибольшая последовательнократная подпоследовательность.  
+[01](src/stepik-algorithms-methods/smallFibonacci.java) Вычисление числа Фибоначчи.  
+[02](src/stepik-algorithms-methods/fibonacciLastNumber.java) Вычисление последнего числа n-ого числа Фибоначчи.  
+[03](src/stepik-algorithms-methods/greatestcommondivisor.java) Нахождение наибольшего общего делителя.  
+[04](src/stepik-algorithms-methods/coverSegments.java) Покрытие отрезков точками.  
+[05](src/stepik-algorithms-methods/knapsack.java) Задача о непрерывном рюкзаке.  
+[06](src/stepik-algorithms-methods/huffmancode.java) Кодирование Хаффмана.  
+[07](src/stepik-algorithms-methods/huffmandecode.java) Декодирование Хаффмана.  
+[08](src/stepik-algorithms-methods/priorityqueue.java) Очередь с приоритетами на основе двоичной кучи.  
+[09](src/stepik-algorithms-methods/longestsubsequence.java) Наибольшая последовательнократная подпоследовательность.  
   
   
   
