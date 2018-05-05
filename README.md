@@ -33,13 +33,13 @@
 	
 ### Задачи из курса ["Алгоритмы программирования и структуры данных"](https://openedu.ru/course/ITMOUniversity/PADS/)   
    
-[1](src/openedu-algorithms/sortland.java) Сортировка двумерного массива вставками.  
-[2](src/openedu-algorithms/inversionscount.java) Подсчет количества инверсий в массиве с помощью алгоритма сортировки слиянием.  
-[3](src/openedu-algorithms/stack.java) Реализация работы стека.   
-[4](src/openedu-algorithms/fifo.java) Реализация работы очереди.  
-[5](src/openedu-algorithms/binarytreeheight.java) Нахождение высоты дерева поиска.  
-[6](src/openedu-algorithms/binarysubtreeremove.java) Удаление поддеревьев в дереве поиска.  
-[7](src/openedu-algorithms/avlbalance.java) Определение баланса для каждого из узлов АВЛ-дерева.  
+[01](src/openedu-algorithms/sortland.java) Сортировка двумерного массива вставками.  
+[02](src/openedu-algorithms/inversionscount.java) Подсчет количества инверсий в массиве с помощью алгоритма сортировки слиянием.  
+[03](src/openedu-algorithms/stack.java) Реализация работы стека.   
+[04](src/openedu-algorithms/fifo.java) Реализация работы очереди.  
+[05](src/openedu-algorithms/binarytreeheight.java) Нахождение высоты дерева поиска.  
+[06](src/openedu-algorithms/binarysubtreeremove.java) Удаление поддеревьев в дереве поиска.  
+[07](src/openedu-algorithms/avlbalance.java) Определение баланса для каждого из узлов АВЛ-дерева.  
   
   
   
