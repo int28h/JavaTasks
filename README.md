@@ -24,10 +24,11 @@
   
   
   
-### Задачи [отсюда](http://acm.sgu.ru/mobiledev17/problemset.php)    
+### Разное  
   
-[101](src/list-reverse.java) Переворот односвязного списка.   
-[103](src/xmldoc.java) XML-документ.   
+[01](src/list-reverse.java) Переворот односвязного списка.   
+[02](src/xmldoc.java) XML-документ.   
+[03](src/lcs.java) Longest common substring.  
    
     
 	
