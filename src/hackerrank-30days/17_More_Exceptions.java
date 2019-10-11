@@ -4,7 +4,7 @@
  * If either n or p is negative, then the method must throw an exception with the message: 
  * "n and p should be non-negative".
  */
- class Calculator {
+class Calculator {
     public static int power(int a, int b) throws Exception{
         if(a < 0 || b < 0){
             throw new Exception("n and p should be non-negative");

@@ -13,6 +13,7 @@ class Node{
         left=right=null;
     }
 }
+
 class Solution{
 	public static int getHeight(Node root){
 		if(root == null) return -1;
@@ -48,5 +49,4 @@ class Solution{
         int height=getHeight(root);
         System.out.println(height);
     }
-}
 }
