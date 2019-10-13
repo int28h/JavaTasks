@@ -1,22 +1,23 @@
 /**
  * Дано число 1 <= n <= 10^7, необходимо найти последнюю цифру n-го числа Фибоначчи.
  * 
- * Как мы помним, числа Фибоначчи растут очень быстро, поэтому при их вычислении нужно быть аккуратным с переполнением. 
+ * Как мы помним, числа Фибоначчи растут очень быстро, поэтому при их вычислении нужно быть аккуратным с переполнением.
  * В данной задаче, впрочем, этой проблемы можно избежать, поскольку нас интересует только последняя цифра числа Фибоначчи: если 0 <= a, b <= 9,
  * a,b — последние цифры чисел F[i] и F[i+1] соответственно, то (a+b)mod10 — последняя цифра числа F[i+2].
  */
+
 import java.util.Scanner;
 
 public class Main {
-  public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
-		int n = sc.nextInt();
-		int f1 = 0, f2 = 1;
-		for (int i = 0; i < n - 1; i++){
-			int f3 = (f1 + f2) % 10;
-			f1 = f2;
-			f2 = f3;
-		}
-		System.out.println(f2);
-  }
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        int f1 = 0, f2 = 1;
+        for (int i = 0; i < n - 1; i++) {
+            int f3 = (f1 + f2) % 10;
+            f1 = f2;
+            f2 = f3;
+        }
+        System.out.println(f2);
+    }
 }
