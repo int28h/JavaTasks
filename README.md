@@ -1,3 +1,8 @@
+### Hackerrank: [Regex](https://www.hackerrank.com/domains/regex)  
+[01](regex/01_matching_specific_string.java) Matching Specific String  
+  
+  
+  
 ### Задачи из курса ["Алгоритмы: теория и практика. Структуры данных"](https://stepik.org/course/1547/syllabus)  
   
 [01](src/stepik-algorithms-structures/brackets.java) Баланс скобок.  
