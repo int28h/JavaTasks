@@ -1,7 +1,7 @@
 ### Hackerrank: [Regex](https://www.hackerrank.com/domains/regex)  
-[01](regex/01_matching_specific_string.java) Matching Specific String  
-[02](regex/02_matching_anything_but_a_newline.java) Matching Anything But a Newline  
-[03](regex/03_matching_digits_&_non-digit_characters.java) Matching Digits & Non-Digit Characters  
+[01](src/regex/01_matching_specific_string.java) Matching Specific String  
+[02](src/regex/02_matching_anything_but_a_newline.java) Matching Anything But a Newline  
+[03](src/regex/03_matching_digits_&_non-digit_characters.java) Matching Digits & Non-Digit Characters  
   
   
   
