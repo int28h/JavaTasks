@@ -2,6 +2,8 @@
 [01](src/regex/01_matching_specific_string.java) Matching Specific String  
 [02](src/regex/02_matching_anything_but_a_newline.java) Matching Anything But a Newline  
 [03](src/regex/03_matching_digits_&_non-digit_characters.java) Matching Digits & Non-Digit Characters  
+[04](src/regex/04_matching_whitespace_&_non_whitespace_character.java) Matching Whitespace & Non-Whitespace Character  
+[05](src/regex/05_matching_word_&_non_word_character.java) Matching Word & Non-Word Character  
   
   
   
